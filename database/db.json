@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "juancho.rois",
+      "password": "12345",
+      "name": "Juan",
+      "lastname": "rois",
+      "email": "juancho.rois@mail.com",
+      "role": "admin"
+    },
+    {
+      "id": "7251",
+      "username": "poncho.zuleta",
+      "password": "12345",
+      "name": "alfonso",
+      "lastname": "zuleta",
+      "email": "poncho.zuleta@mail.com",
+      "role": "user"
+    },
+        {
+      "id": "2",
+      "username": "diomedes.diaz",
+      "password": "12345",
+      "name": "diomedes",
+      "lastname": "diaz",
+      "email": "diomedes.diaz@mail.com",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "name": "cantar",
+      "user_id": "2"
+    },
+    {
+      "id": "2",
+      "name": "cantar y componer",
+      "user_id": "7251"
+    }
+  ]
+}
